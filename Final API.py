@@ -5,7 +5,7 @@ import requests
 
 #variables
 main_api = "https://www.goodreads.com/search.xml?"
-key = "########################" #Replace with your own Goodreads key
+key = "29pi3PNpsn91wpxKCh3QA" #Replace with your own Goodreads key
 titlelist = []
 bookidlist = []
 authorlist = []
@@ -51,3 +51,8 @@ while True:
             print("===================================="+ "="*len(bookidlist[counter1]))
             print("\n")
             counter1 += 1
+        titlelist = []
+        bookidlist = []
+        authorlist = []
+        ratinglist = []
+        counter1 = 0
