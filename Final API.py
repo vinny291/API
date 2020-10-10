@@ -5,7 +5,7 @@ import requests
 
 #variables
 main_api = "https://www.goodreads.com/search.xml?"
-key = "29pi3PNpsn91wpxKCh3QA" #Replace with your own Goodreads key
+key = "####################" #Replace with your own Goodreads key
 titlelist = []
 bookidlist = []
 authorlist = []
